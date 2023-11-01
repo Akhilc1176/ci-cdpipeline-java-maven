@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Checkout') {
       steps {
-        sh 'git branch: 'main', url: 'https://github.com/Akhilc1176/ci-cdpipeline-java-maven'
+        sh 'git branch: 'main', url: 'http://github.com/Akhilc1176/ci-cdpipeline-java-maven'
       }
     }
     stage('Build and Test') {
